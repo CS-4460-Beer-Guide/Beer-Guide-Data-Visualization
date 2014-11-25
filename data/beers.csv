@@ -1,0 +1,307 @@
+BRANCH,FAMILY,SUB FAMILY,BEER NAME,BREWERY,ABV,IBU,REGION
+LAGER,AMERICAN LAGER,AMERICAN LAGER,Corona Extra,Grupo Modelo S.A. de C.V.,4.60%,10,Mexico
+LAGER,AMERICAN LAGER,AMERICAN LAGER,Miller High Life,Miller,4.60%,7,Wisconsin
+LAGER,AMERICAN LAGER,AMERICAN LAGER,Budweiser,Anheuser-Busch,5%,12,Missouri
+LAGER,AMERICAN LAGER,LITE AMERICAN LAGER,Bud Light,Anheuser-Busch,4.20%,7,Missouri
+LAGER,AMERICAN LAGER,LITE AMERICAN LAGER,Coors Light,Coors,4.20%,9,Colorado
+LAGER,AMERICAN LAGER,LITE AMERICAN LAGER,Miller Lite,Miller,4.17%,12,Wisconsin
+LAGER,GERMAN LAGER,MUNICH HELLES,Atwater's Lager,Atwater,5%,12,Michigan
+LAGER,GERMAN LAGER,MUNICH HELLES,Schlafly Summer Lager,Schlafly,4.50%,17,Missouri
+LAGER,GERMAN LAGER,MUNICH HELLES,Bikini Blonde Lager,Maui Brewing,4.50%,18,Hawaii
+LAGER,GERMAN LAGER,DORTMUNDER,Great Lakes Dortmunder Gold,Great Lakes,5.80%,30,Ohio
+LAGER,GERMAN LAGER,DORTMUNDER,Dog Days Lager,Two Brothers,5.10%,17,Illinois
+LAGER,GERMAN LAGER,DORTMUNDER,Jinx Proof,Three Floyds,5.10%,35,Indiana
+LAGER,PILSNER,GERMAN PILSNER,Summer Pils,Saint Arnold,4.90%,41,Texas
+LAGER,PILSNER,GERMAN PILSNER,Bitburger Premium Pils,Bitburger Brauerei,4.80%,38,Germany
+LAGER,PILSNER,GERMAN PILSNER,Avery Joe’s Premium American Pilsner,Avery,4.70%,42,Colorado
+LAGER,PILSNER,BOHEMIAN PILSENER,Summerfest,Sierra Nevada,5%,28,California
+LAGER,PILSNER,BOHEMIAN PILSENER,Mama's Lil Yella Pils,Oskar Blues,5.30%,35,Colorado
+LAGER,PILSNER,BOHEMIAN PILSENER,Long Day Lager,Red Hare,4.90%,25,Georgia
+LAGER,PILSNER,AMERICAN PILSNER,Fresh Cut Pilsner,Peak Organic,4.60%,19,Maine
+LAGER,PILSNER,AMERICAN PILSNER,Tiny Bomb,Wiseacre,4.50%,23,Tennessee
+LAGER,PILSNER,AMERICAN PILSNER,Two-One Niner,Laughing Dog,4.80%,9,Indiana
+LAGER,EURO LAGER,VIENNA LAGER,Boston Lager,Boston Beer Company,4.90%,30,Massachusetts
+LAGER,EURO LAGER,VIENNA LAGER,Big Bark Amber Lager,Live Oak,4.90%,29,Texas
+LAGER,EURO LAGER,VIENNA LAGER,Cutlass,Heavy Seas Beer,5.40%,25,Maryland
+LAGER,EURO LAGER,OKTOBERFEST/ MAERZEN,Festbier,Victory,5.60%,20,Pennsylvania
+LAGER,EURO LAGER,OKTOBERFEST/ MAERZEN,Dogtoberfest,Flying,5.30%,30,Maryland
+LAGER,EURO LAGER,OKTOBERFEST/ MAERZEN,Oktoberfest,Left Hand,6.60%,24,Colorado
+LAGER,AMERICAN LAGER,AMERICAN AMBER,Yuengling Traditional Lager,Yuengling,4.40%,12,Pennsylvania
+LAGER,AMERICAN LAGER,AMERICAN AMBER,Brooklyn Lager,Brooklyn,5.20%,28,New York
+LAGER,AMERICAN LAGER,AMERICAN AMBER,Jomo Lager,Star Hill,5.57%,20,Virginia
+LAGER,GERMAN LAGER,MUNICH DUNKEL,Premium Dunkel,Warsteiner Brauerei,4.90%,19,Germany
+LAGER,GERMAN LAGER,MUNICH DUNKEL,Dark Cloud,Mother Earth,5.10%,19,North Carolina
+LAGER,GERMAN LAGER,MUNICH DUNKEL,Pious Monk Dunkel,Church Brew Works,4.30%,20,Pennsylvania
+LAGER,GERMAN LAGER,SCHWARZBIER,Howl,Magic Hat,4.60%,32,Vermont
+LAGER,GERMAN LAGER,SCHWARZBIER,Bohemian Black Lager,Spoetzel,4.90%,18,Texas
+LAGER,GERMAN LAGER,SCHWARZBIER,Samuel Adams Black Lager,Boston Beer Company,4.90%,20,Massachusetts
+LAGER,GERMAN LAGER,BOCK,Shiner Bock,Spoetzel,4.40%,13,Texas
+LAGER,GERMAN LAGER,BOCK,Genesee Bock,Genesee,5.20%,10,New York
+LAGER,GERMAN LAGER,BOCK,St. Nikolaus Bock Bier,Pennsylvania,6%,25,Pennsylvania
+LAGER,BOCK,MAIBOCK/HELLES BOCK,Dead Guy Ale,Rogue Ales,6.50%,40,Oregon
+LAGER,BOCK,MAIBOCK/HELLES BOCK,Mardi Gras Bock,Abita,6.50%,25,Louisiana
+LAGER,BOCK,MAIBOCK/HELLES BOCK,Cabin Fever,New Glarus,6%,27,Wisconsin
+LAGER,BOCK,DOPPELBOCK,Optimator,Spaten-Franziskaner-Braeu,7.60%,24,Germany
+LAGER,BOCK,DOPPELBOCK,Consecrator,Bell's,8%,21,Michigan
+LAGER,BOCK,DOPPELBOCK,Celebrator,Brauerei Aying,6.70%,24,Germany
+LAGER,BOCK,EISBOCK,Schneider Aventinus Weizen-Eisbock,Weisses Braeuhaus G. Schneider & Sohn,12%,20,Germany
+LAGER,BOCK,EISBOCK,Double Ice Bock,Southampton Publick House,18%,20,New  York
+LAGER,BOCK,EISBOCK,Reichelbrau Eisbock,Kulmbacher Brauerei AG,9.20%,27,Germany
+LAGER,AMERICAN LAGER,JAPANESE RICE LAGER,Asahi Super Dry,Asahi,5%,15,Japan
+LAGER,AMERICAN LAGER,JAPANESE RICE LAGER,Koshihikari Echigo Beer,Echigo Beer Pub,5%,12,Japan
+LAGER,AMERICAN LAGER,JAPANESE RICE LAGER,Kirin Lager,Kirin,4.90%,19,Japan
+LAGER,PILSNER,IMPERIAL PILSNER,Krampus,Southern Tier,9%,35,New York
+LAGER,PILSNER,IMPERIAL PILSNER,My Antonia,Dogfish Head,7.50%,35,Delaware
+LAGER,PILSNER,IMPERIAL PILSNER,Morimoto,Rogue Ales,8.80%,74,Oregon
+LAGER,EURO LAGER,EURO STRONG LAGER,#9 Extra,Baltika Breweries,8%,31,Russia
+LAGER,EURO LAGER,EURO STRONG LAGER,Elephant Beer,Carlsberg Danmark,7.20%,20,Denmark
+LAGER,EURO LAGER,EURO STRONG LAGER,Imperial Premium Malt Pilsner,Lion Brewery Limited,8.80%,23,Sri Lanka
+LAGER,EURO LAGER,EURO DARK LAGER,Death & Taxes Black Beer,Moonlight Brewing Co,5%,19,California
+LAGER,EURO LAGER,EURO DARK LAGER,1554,New Belgium,5.60%,21,Colorado
+LAGER,EURO LAGER,EURO DARK LAGER,El Steinber,Anderson Valley,5%,25,California
+LAGER,EURO LAGER,EURO PALE LAGER,Stella Artois,Stella Artois,5%,25,Belgium
+LAGER,EURO LAGER,EURO PALE LAGER,1664,Brasseries Kronenbourg,5%,20,France
+LAGER,EURO LAGER,EURO PALE LAGER,Harp Lager,Guinness Ltd,5%,24,Ireland
+LAGER,AMERICAN LAGER,CREAM ALE,Sweet Action,Sixpoint,5.20%,34,New York
+LAGER,AMERICAN LAGER,CREAM ALE,Summer Solstice,Anderson Valley,5%,4,California
+LAGER,AMERICAN LAGER,CREAM ALE,Golden Ale,Terrapin Beer Company,5%,21,Georgia
+ALE,AMERICAN ALE,CREAM ALE,Sweet Action,Sixpoint,5.20%,34,New York
+ALE,AMERICAN ALE,CREAM ALE,Summer Solstice,Anderson Valley,5%,4,California
+ALE,AMERICAN ALE,CREAM ALE,Golden Ale,Terrapin Beer Company,5%,21,Georgia
+ALE,AMERICAN ALE,BLONDE ALE,Somersault,New Belgium,5.20%,28,Colorado
+ALE,AMERICAN ALE,BLONDE ALE,Samurai Ale,Great Divide,5.10%,15,Colorado
+ALE,AMERICAN ALE,BLONDE ALE,Big Wave Golden Ale,Kona Brewing Co,4.40%,20,Hawaii
+ALE,GERMAN ALE,KOELSCH,Fancy Lawnmower,Saint Arnold,4.90%,20,Texas
+ALE,GERMAN ALE,KOELSCH,Reissdorf Koelsch,Brauerei Heinrich Reissdorf,4.80%,27,Germany
+ALE,GERMAN ALE,KOELSCH,Yellowtail Pale Ale,Ballast Point,5%,23,California
+LAGER,GERMAN LAGER,KOELSCH,Fancy Lawnmower,Saint Arnold,4.90%,20,Texas
+LAGER,GERMAN LAGER,KOELSCH,Reissdorf Koelsch,Brauerei Heinrich Reissdorf,4.80%,27,Germany
+LAGER,GERMAN LAGER,KOELSCH,Yellowtail Pale Ale,Ballast Point,5%,23,California
+ALE,AMERICAN ALE,AMERICAN PALE WHEAT,Oberon,Bell's,5.80%,10,Michigan
+ALE,AMERICAN ALE,AMERICAN PALE WHEAT,Circus Boy,Magic Hat,4.50%,15,Vermont
+ALE,AMERICAN ALE,AMERICAN PALE WHEAT,A Little Sumpin' Sumpin' Ale,Lagunitas,7.50%,64,California
+ALE,GERMAN ALE,ALTBIER,Okto Festival Ale,Widmer Brothers,5.30%,28,Oregon
+ALE,GERMAN ALE,ALTBIER,Tree Hugger,Terrapin Beer Company,5.10%,40,Georgia
+ALE,GERMAN ALE,ALTBIER,Double Bag,Long Trail,7.20%,33,Vermont
+LAGER,GERMAN LAGER,ALTBIER,Okto Festival Ale,Widmer Brothers,5.30%,28,Oregon
+LAGER,GERMAN LAGER,ALTBIER,Tree Hugger,Terrapin Beer Company,5.10%,40,Georgia
+LAGER,GERMAN LAGER,ALTBIER,Double Bag,Long Trail,7.20%,33,Vermont
+ALE,AMERICAN ALE,CALIFORNIA COMMON,Dorothy's New World Lager,Toppling Goliath,5.50%,11,Iowa
+ALE,AMERICAN ALE,CALIFORNIA COMMON,2X Steam,Southern Tier,8%,35,New York
+ALE,AMERICAN ALE,CALIFORNIA COMMON,Steam Beer,Anchor,4.90%,35,California
+LAGER,AMERICAN LAGER,CALIFORNIA COMMON,Dorothy's New World Lager,Toppling Goliath,5.50%,11,Iowa
+LAGER,AMERICAN LAGER,CALIFORNIA COMMON,2X Steam,Southern Tier,8%,35,New York
+LAGER,AMERICAN LAGER,CALIFORNIA COMMON,Steam Beer,Anchor,4.90%,35,California
+ALE,PALE ALE,ENGLISH PALE ALE,Mid Mountain Mild Ale,Epic,5%,12,Utah
+ALE,PALE ALE,ENGLISH PALE ALE,Tallgrass Pub Ale,Tallgrass,4.40%,20,Kansas
+ALE,PALE ALE,ENGLISH PALE ALE,Let There Be Light,Wild Heaven,4.70%,10,Georgia
+ALE,ENGLISH PALE ALE,STANDARD/ORDINARY BITTER,Powder Monkey,Heavy Seas,4.80%,28,Maryland
+ALE,ENGLISH PALE ALE,STANDARD/ORDINARY BITTER,Pale Ale,Schlafly,4.40%,25,Missouri
+ALE,ENGLISH PALE ALE,STANDARD/ORDINARY BITTER,London Pride,Fuller Smith & Turner,4.70%,33,England
+ALE,ENGLISH PALE ALE,SPECIAL/BEST/PREMIUM BITTER,Sawtooth Ale,Left Hand,5.30%,27,Colorado
+ALE,ENGLISH PALE ALE,SPECIAL/BEST/PREMIUM BITTER,Beast Bitter,Middle Ages,5.30%,50,New York
+ALE,ENGLISH PALE ALE,SPECIAL/BEST/PREMIUM BITTER,Young's Special London Ale,Wells & Young's,6.40%,32,England
+ALE,SCOTTISH/IRISH ALE,SCOTTISH/IRISH ALE,Merlin's Ale,Broughton,4.20%,35,Scotland
+ALE,SCOTTISH/IRISH ALE,SCOTTISH/IRISH ALE,Brian Boru,Three Floyds,5.50%,40,Indiana
+ALE,SCOTTISH/IRISH ALE,SCOTTISH/IRISH ALE,Dirty Bastard,Founders,8.50%,50,Michigan
+ALE,SCOTTISH/IRISH ALE,SCOTTISH EXPORT,Arran Dark,Isle of Arran,4.30%,27,Scotland
+ALE,SCOTTISH/IRISH ALE,SCOTTISH EXPORT,Merlin's Ale,Broughton,4.20%,35,Scotland
+ALE,SCOTTISH/IRISH ALE,SCOTTISH EXPORT,Dark Island,Orkney,4.60%,50,Scotland
+ALE,SCOTTISH/IRISH ALE,IRISH RED ALE,River Falls,Thomas Creek,5.65%,21,South Carolina
+ALE,SCOTTISH/IRISH ALE,IRISH RED ALE,Brian Boru,Three Floyds,5.50%,40,Indiana
+ALE,SCOTTISH/IRISH ALE,IRISH RED ALE,Riptide,Casco Bay,5.40%,23,Maine
+ALE,SCOTTISH/IRISH ALE,STRONG SCOTCH ALE/WEE HEAVY,Dirty Bastard,Founders,8.50%,50,Michigan
+ALE,SCOTTISH/IRISH ALE,STRONG SCOTCH ALE/WEE HEAVY,Scotty Karate,Dark Horse,9.75%,24,Michigan
+ALE,SCOTTISH/IRISH ALE,STRONG SCOTCH ALE/WEE HEAVY,Skull Splitter,Orkney,8.50%,21,Scotland
+ALE,PALE ALE,AMERICAN PALE ALE,MO,Maine Beer Company,6%,43,Maine
+ALE,PALE ALE,AMERICAN PALE ALE,Mirror Pond Pale Ale,Deschutes,5%,40,Oregon
+ALE,PALE ALE,AMERICAN PALE ALE,420,Sweetwater,5.40%,50,Georgia
+ALE,AMERICAN ALE,AMERICAN AMBER ALE,Amber,Full Sail,5.50%,31,Oregon
+ALE,AMERICAN ALE,AMERICAN AMBER ALE,Ruedrich's Red Seal Ale,North Coast,5.50%,42,California
+ALE,AMERICAN ALE,AMERICAN AMBER ALE,Bell's Amber Ale,Bell's,5.80%,32,Michigan
+ALE,AMERICAN ALE,AMERICAN BROWN ALE,Indian Brown Ale,Dogfish Head,7.20%,50,Delaware
+ALE,AMERICAN ALE,AMERICAN BROWN ALE,Brownstone,Sixpoint,6%,45,New York
+ALE,AMERICAN ALE,AMERICAN BROWN ALE,Old Brown Dog,Smuttynose,6.70%,18,New Hampshire
+ALE,PALE ALE,AMERICAN PALE ALE,MO,Maine Beer Company,6%,43,Maine
+ALE,PALE ALE,AMERICAN PALE ALE,Mirror Pond Pale Ale,Deschutes,5%,40,Oregon
+ALE,PALE ALE,AMERICAN PALE ALE,420,Sweetwater,5.40%,50,Georgia
+ALE,ENGLISH BROWN ALE,MILD,Black Cat,Moorhouse,3.40%,17,England
+ALE,ENGLISH BROWN ALE,MILD,Mild Winter,Goose Island,5.60%,28,Illinois
+ALE,ENGLISH BROWN ALE,MILD,Brawler Pugilist Style Ale,Yards,4.20%,12,Pennsylvania
+ALE,ENGLISH BROWN ALE,SOUTHERN ENGLISH BROWN,Norfolk Nog,Woodforde,4.20%,18,England
+ALE,ENGLISH BROWN ALE,SOUTHERN ENGLISH BROWN,Nut Brown Ale,Harvey & Son,3%,10,England
+ALE,ENGLISH BROWN ALE,SOUTHERN ENGLISH BROWN,Mann's Brown Ale,Thomas Hardy Burtonwood,2.80%,5,England
+ALE,ENGLISH BROWN ALE,NORTHERN ENGLISH BROWN,Georgia Brown,Sweetwater,5.10%,24,Georgia
+ALE,ENGLISH BROWN ALE,NORTHERN ENGLISH BROWN,Rugged Trail Nut Brown Ale,Troeegs,5%,33,Pennsylvania
+ALE,ENGLISH BROWN ALE,NORTHERN ENGLISH BROWN,Nut Brown Ale,Samuel Smith,5%,31,England
+ALE,ALE,PORTER,London Porter,Fuller Smith & Porter,5.40%,33,England
+ALE,ALE,PORTER,Leviathan,Harpoon,9.50%,38,Massachusetts
+ALE,ALE,PORTER,Black Butte Porter,Deschutes,5.20%,30,Oregon
+ALE,PORTER,BROWN PORTER,Entire Butt English Porter,Salopian,4.80%,25,England
+ALE,PORTER,BROWN PORTER,Fuller's London Porter,Fuller Smith & Porter,5.40%,33,England
+ALE,PORTER,BROWN PORTER,Old Growler,Nethergate,5.50%,27,England
+ALE,PORTER,ROBUST PORTER,Bully! Porter,Boulevard,6%,49,Missouri
+ALE,PORTER,ROBUST PORTER,Black Butte Porter,Deschutes,5.20%,30,Oregon
+ALE,PORTER,ROBUST PORTER,Robust Porter,Smuttynose,5.70%,43,New Hampshire
+ALE,PORTER,BALTIC PORTER,Leviathan,Harpoon,9.50%,38,Massachusetts
+ALE,PORTER,BALTIC PORTER,Red Thunder,Victory,8.50%,30,Pennsylvania
+ALE,PORTER,BALTIC PORTER,Baltika #6,Baltika,7%,25,Russia
+ALE,STOUT,STOUT,Old Rasputin,North Coast,9%,75,California
+ALE,STOUT,STOUT,Left Hand Milk Stout,Left Hand,6%,25,Colorado
+ALE,STOUT,STOUT,Old #38,North Coast,5.60%,53,California
+ALE,STOUT,DRY STOUT,Dark Starr Stout,Starr Hill,4.20%,35,Virginia
+ALE,STOUT,DRY STOUT,Cadillac Mountain Stout,Bar Harbor,6.70%,36,Maine
+ALE,STOUT,DRY STOUT,Old #38,North Coast,5.60%,53,California
+ALE,STOUT,SWEET STOUT,Jefferson Stout,Lazy Magnolia,4.65%,22,Mississippi
+ALE,STOUT,SWEET STOUT,Duck-Rabbit Milk Stout,Duck-Rabbit,5.70%,55,North Carolina
+ALE,STOUT,SWEET STOUT,Left Hand Milk Stout,Left Hand,6%,25,Colorado
+ALE,STOUT,OATMEAL STOUT,Samuel Smith's Oatmeal Stout,Samuel Smith,5%,32,England
+ALE,STOUT,OATMEAL STOUT,Barney Flats Oatmeal Stout,Anderson Valley,5.80%,13,California
+ALE,STOUT,OATMEAL STOUT,The Poet,New Holland,5.20%,40,Michigan
+ALE,STOUT,FOREIGN EXTRA,Lion Stout,Ceylon/Lion,8.80%,26,Sri Lanka
+ALE,STOUT,FOREIGN EXTRA,Coopers Best Extra Stout,Coopers,6.30%,41,Australia
+ALE,STOUT,FOREIGN EXTRA,Guinness Foreign Extra Stout,Guinness,7.50%,40,Ireland
+ALE,STOUT,AMERICAN STOUT,Kalamazoo Stout,Bell's,6%,51,Michigan
+ALE,STOUT,AMERICAN STOUT,Diesel,Sixpoint,6.30%,69,New York
+ALE,STOUT,AMERICAN STOUT,Chocolate Stout,Rogue Ales,6%,69,Oregon
+ALE,STOUT,RUSSIAN IMPERIAL STOUT,Ten FIDY,Oskar Blues,10.50%,98,Colorado
+ALE,STOUT,RUSSIAN IMPERIAL STOUT,Old Rasputin,North Coast,9%,75,California
+ALE,STOUT,RUSSIAN IMPERIAL STOUT,Old Heathen,Weyerbacher,8%,62,Pennsylvania
+ALE,PALE ALE,INDIA PALE ALE,Harpoon IPA,Harpoon,5.90%,42,Massachusetts
+ALE,PALE ALE,INDIA PALE ALE,Two Hearted Ale,Bell's,7%,55,Michigan
+ALE,PALE ALE,INDIA PALE ALE,Ruination,Stone,8.20%,105,California
+ALE,INDIA PALE ALE,ENGLISH IPA,Commodore Perry,Great Lakes,7.50%,80,Ohio
+ALE,INDIA PALE ALE,ENGLISH IPA,Harpoon IPA,Harpoon,5.90%,42,Massachusetts
+ALE,INDIA PALE ALE,ENGLISH IPA,400 Pound Monkey,Left Hand,6.70%,35,Colorado
+ALE,INDIA PALE ALE,AMERICAN IPA,Titan IPA,Great Divide,7.10%,65,Colorado
+ALE,INDIA PALE ALE,AMERICAN IPA,Sculpin IPA,Ballast Point,7%,70,California
+ALE,INDIA PALE ALE,AMERICAN IPA,Two Hearted Ale,Bell's,7%,55,Michigan
+ALE,INDIA PALE ALE,IMPERIAL/DOUBLE IPA,Ruination,Stone,8.20%,105,California
+ALE,INDIA PALE ALE,IMPERIAL/DOUBLE IPA,Pliny The Elder,Russian River,8%,95,California
+ALE,INDIA PALE ALE,IMPERIAL/DOUBLE IPA,90 Minute IPA,Dogfish Head,9%,90,Delaware
+ALE,GERMAN ALE,GERMAN WHEAT AND RYE,Primus Weizenbock,Live Oak,8.30%,15,Texas
+ALE,GERMAN ALE,GERMAN WHEAT AND RYE,Paulaner Roggen,Paulaner,5.30%,15,Germany
+ALE,GERMAN ALE,GERMAN WHEAT AND RYE,Weihenstephaner Hefeweissbier,Weihenstephaner,5.40%,14,Germany
+ALE,GERMAN WHEAT AND RYE,WEIZEN/WEISSBIER,Weihenstephaner Hefeweissbier,Weihenstephaner,5.40%,14,Germany
+ALE,GERMAN WHEAT AND RYE,WEIZEN/WEISSBIER,Paulaner Hefe-Weissbier Naturtrüb,Paulaner,5.50%,10,Germany
+ALE,GERMAN WHEAT AND RYE,WEIZEN/WEISSBIER,Franziskaner Weissbier,Spaten-Franziskaner-Bräu,5.00%,10,Germany
+ALE,GERMAN WHEAT AND RYE,DUNKELWEIZEN,Shiner Holiday Cheer,Spoetzl,5.40%,22,Texas
+ALE,GERMAN WHEAT AND RYE,DUNKELWEIZEN,Weihenstephaner Hefeweissbier Dunkel,Weihenstephaner,5.30%,14,Germany
+ALE,GERMAN WHEAT AND RYE,DUNKELWEIZEN,Erdinger Weissbier Dunkel,Erdinger Weissbrau,5.30%,13,Germany
+ALE,GERMAN WHEAT AND RYE,WEIZENBOCK,Primus Weizenbock,Live Oak,8.30%,15,Texas
+ALE,GERMAN WHEAT AND RYE,WEIZENBOCK,Moonglow Weizenbock,Victory,8.70%,23,Pennsylvania
+ALE,GERMAN WHEAT AND RYE,WEIZENBOCK,Vitus,Weihenstephaner,7.70%,17,Germany
+ALE,GERMAN WHEAT AND RYE,ROGGENBIER,Live Oak Roggenbier,Live Oak,4.80%,10,Texas
+ALE,GERMAN WHEAT AND RYE,ROGGENBIER,Schlaegel Roggen Gold,Stiftsbrauerei Schlaegel,4.90%,15,Austria
+ALE,GERMAN WHEAT AND RYE,ROGGENBIER,Paulaner Roggen,Paulaner,5.30%,15,Germany
+ALE,ALE,BELGIAN ALE,Hitachino Nest White Ale,Kiuchi,5.50%,13,Japan
+ALE,ALE,BELGIAN ALE,Palm Speciale,Brouwerij Palm,5.40%,18,Belgium
+ALE,ALE,BELGIAN ALE,Domaine DuPage French Style Country Ale,Two Brothers,5.90%,24,Illinois
+ALE,BELGIAN ALE,WITBIER,Hoegaarden Original White Ale,Brouwerij van Hoegaarden,4.90%,13,Belgium
+ALE,BELGIAN ALE,WITBIER,Hitachino Nest White Ale,Kiuchi,5.50%,13,Japan
+ALE,BELGIAN ALE,WITBIER,Double White,Southampton Publick House,6.70%,22,New York
+ALE,BELGIAN ALE,BELGIAN PALE ALE,Leffe Blonde,Abbaye de Leffe S.A.,6.60%,25,Belgium
+ALE,BELGIAN ALE,BELGIAN PALE ALE,A Little Crazy,Revolution,6.80%,22,Illinois
+ALE,BELGIAN ALE,BELGIAN PALE ALE,Palm Speciale,Brouwerij Palm,5.40%,18,Belgium
+ALE,PALE ALE,BELGIAN PALE ALE,Leffe Blonde,Abbaye de Leffe S.A.,6.60%,25,Belgium
+ALE,PALE ALE,BELGIAN PALE ALE,A Little Crazy,Revolution,6.80%,22,Illinois
+ALE,PALE ALE,BELGIAN PALE ALE,Palm Speciale,Brouwerij Palm,5.40%,18,Belgium
+ALE,BELGIAN ALE,SAISON/FARMHOUSE ALE,Tank 7,Boulevard,8.50%,38,Missouri
+ALE,BELGIAN ALE,SAISON/FARMHOUSE ALE,Pepe Nero,Goose Island,6.40%,30,Illinois
+ALE,BELGIAN ALE,SAISON/FARMHOUSE ALE,Hennepin,Ommegang,7.70%,27,New York
+ALE,BELGIAN ALE,BIERE DE GARDE,3 Monts Flanders Golden Ale,Brasserie de Saint-Sylvestre,8.50%,20,France
+ALE,BELGIAN ALE,BIERE DE GARDE,Domaine DuPage French Style Country Ale,Two Brothers,5.90%,24,Illinois
+ALE,BELGIAN ALE,BIERE DE GARDE,Oro de Calabaza,Jolly Pumpkin Artisan Ales,8%,28,Michigan
+ALE,ALE,SOUR ALE,Monk's Cafe Flemish Sour Ale,Brouwerij van Steenberge,5.50%,25,Belgium
+ALE,ALE,SOUR ALE,Lambickx,Vanberg & DeWulf,5.75%,7,New York
+ALE,ALE,SOUR ALE,Oarsman,Bell's,4%,10,Michigan
+ALE,SOUR ALE,BERLINER WEISSE,Thumbprint Berliner Weiss,New Glarus,4%,6,Wisconsin
+ALE,SOUR ALE,BERLINER WEISSE,Festine Peche,Dogfish Head,4.50%,8,Delaware
+ALE,SOUR ALE,BERLINER WEISSE,Oarsman,Bell's,4%,10,Michigan
+ALE,GERMAN ALE,BERLINER WEISSE,Thumbprint Berliner Weiss,New Glarus,4%,6,Wisconsin
+ALE,GERMAN ALE,BERLINER WEISSE,Festine Peche,Dogfish Head,4.50%,8,Delaware
+ALE,GERMAN ALE,BERLINER WEISSE,Oarsman,Bell's,4%,10,Michigan
+ALE,SOUR ALE,FLANDERS RED ALE,Red Poppy Ale,The Lost Abbey,6.50%,18,California
+ALE,SOUR ALE,FLANDERS RED ALE,Grand Cru,Brouwerij Rodenbach,6%,35,Belgium
+ALE,SOUR ALE,FLANDERS RED ALE,Bird of Prey,Driftwood,7.50%,25,Canada
+ALE,SOUR ALE,FLANDERS BROWN ALE/OUD BRUIN,Thumbprint Enigma,New Glarus,5.50%,21,Wisconsin
+ALE,SOUR ALE,FLANDERS BROWN ALE/OUD BRUIN,Monk's Cafe Flemish Sour Ale,Brouwerij van Steenberge,5.50%,25,Belgium
+ALE,SOUR ALE,FLANDERS BROWN ALE/OUD BRUIN,Petrus Aged Pale,De Brabandere,7.30%,6,Belgium
+ALE,SOUR ALE,LAMBIC,Lambic,Rivertown,6%,10,Ohio
+ALE,SOUR ALE,LAMBIC,Lambickx,Vanberg & DeWulf,5.75%,7,New York
+ALE,SOUR ALE,LAMBIC,Iris,Brasserie Cantillon,5%,5,Belgium
+ALE,BELGIAN ALE,LAMBIC,Lambic,Rivertown,6%,10,Ohio
+ALE,BELGIAN ALE,LAMBIC,Lambickx,Vanberg & DeWulf,5.75%,7,New York
+ALE,BELGIAN ALE,LAMBIC,Iris,Brasserie Cantillon,5%,5,Belgium
+ALE,SOUR ALE,GUEZE,Lindemans Gueuze Cuvee Rene,Brouwerij Lindemans,5.50%,18,Belgium
+ALE,SOUR ALE,GUEZE,Rueuze,The Bruery,5.60%,20,California
+ALE,SOUR ALE,GUEZE,Coolship Resurgam,Allagash,6%,26,Maine
+ALE,SOUR ALE,GOSE,Golden Gate Gose,Almanac,5%,8,California
+ALE,SOUR ALE,GOSE,Troublesome,Off Color,4.30%,6,Illinois
+ALE,SOUR ALE,GOSE,Gose,Westbrook,4%,5,South Carolina
+ALE,GERMAN ALE,GOSE,Golden Gate Gose,Almanac,5%,8,California
+ALE,GERMAN ALE,GOSE,Troublesome,Off Color,4.30%,6,Illinois
+ALE,GERMAN ALE,GOSE,Gose,Westbrook,4%,5,South Carolina
+ALE,BELGIAN ALE,GUEZE,Lindemans Gueuze Cuvee Rene,Brouwerij Lindemans,5.50%,18,Belgium
+ALE,BELGIAN ALE,GUEZE,Rueuze,The Bruery,5.60%,20,California
+ALE,BELGIAN ALE,GUEZE,Coolship Resurgam,Allagash,6%,26,Maine
+ALE,BELGIAN ALE,FRUIT LAMBIC,Oude Kriek Vieille,Brouwerij Oud Beersel,6.50%,8,Belgium
+ALE,BELGIAN ALE,FRUIT LAMBIC,Cantillon Lou Pepe - Kriek,Brasserie Cantillon,5%,5,Belgium
+ALE,BELGIAN ALE,FRUIT LAMBIC,Lindemans Framboise,Brouwerij Lindemans,2.50%,2,Belgium
+ALE,ALE,FRUIT ALE,Purple Haze,Abita,4.20%,13,Louisiana
+ALE,ALE,FRUIT ALE,#9,Magic Hat,5.10%,20,Vermont
+ALE,ALE,FRUIT ALE,Blue,Sweetwater,4.90%,7,Georgia
+ALE,FRUIT ALE,FRUIT LAMBIC,Oude Kriek Vieille,Brouwerij Oud Beersel,6.50%,8,Belgium
+ALE,FRUIT ALE,FRUIT LAMBIC,Cantillon Lou Pepe - Kriek,Brasserie Cantillon,5%,5,Belgium
+ALE,FRUIT ALE,FRUIT LAMBIC,Lindemans Framboise,Brouwerij Lindemans,2.50%,2,Belgium
+ALE,BELGIAN ALE,BELGIAN STRONG ALE,Monk's Blood,21st Amendment,8.30%,34,California
+ALE,BELGIAN ALE,BELGIAN STRONG ALE,Maudite,Unibroue,8%,22,Canada
+ALE,BELGIAN ALE,BELGIAN STRONG ALE,Raison D'Etre,Dogfish Head,8%,25,Delaware
+ALE,BELGIAN STRONG ALE,BELGIAN BLOND ALE,Affligem Blond,Brouwerij de Smedt,6.80%,20,Belgium
+ALE,BELGIAN STRONG ALE,BELGIAN BLOND ALE,Hell's Belle,Big Boss,7%,30,North Carolina
+ALE,BELGIAN STRONG ALE,BELGIAN BLOND ALE,Spring Blonde,New Belgium,6%,48,Colorado
+ALE,BELGIAN STRONG ALE,BELGIAN DUBBEL,Chimay Premiere,Bieres de Chimay,7%,21,Belgium
+ALE,BELGIAN STRONG ALE,BELGIAN DUBBEL,Winter Ale,Smuttynose,5.83%,30,New Hampshire
+ALE,BELGIAN STRONG ALE,BELGIAN DUBBEL,Abbey Ale,Ommegang,8.20%,22,New York
+ALE,BELGIAN STRONG ALE,BELGIAN TRIPEL,Allagash Tripel Ale,Allagash,9%,20,Maine
+ALE,BELGIAN STRONG ALE,BELGIAN TRIPEL,Golden Monkey,Victory,9.50%,25,Pennslyvania
+ALE,BELGIAN STRONG ALE,BELGIAN TRIPEL,La Fin du Monde,Unibroue,9%,19,Canada
+ALE,BELGIAN STRONG ALE,BELGIAN GOLDEN STRONG,La Chouffe,Brasserie d'Achouffe,8%,20,Belgium
+ALE,BELGIAN STRONG ALE,BELGIAN GOLDEN STRONG,Delirium Tremens,Brouwerij Huyghe,8.50%,26,Belgium
+ALE,BELGIAN STRONG ALE,BELGIAN GOLDEN STRONG,Duvel,Brouwerij Duvel Moortgat,8.50%,32,Belgium
+ALE,BELGIAN STRONG ALE,BELGIAN DARK STRONG,Brother Thelonious,North Coast,9.40%,32,California
+ALE,BELGIAN STRONG ALE,BELGIAN DARK STRONG,Trois Pistoles,Unibroue,9%,15,Canada
+ALE,BELGIAN STRONG ALE,BELGIAN DARK STRONG,Gulden Draak,Brouwerij van Steenberge,10.50%,18,Belgium
+ALE,ALE,STRONG ALE,Wilco Tango Foxtrot,Lagunitas,7.83%,64,California
+ALE,ALE,STRONG ALE,Arrogant Bastard Ale,Stone,7.20%,41,California
+ALE,ALE,STRONG ALE,Quilter's Irish Death,Iron Horse,7.80%,35,Washington
+ALE,STRONG ALE,OLD ALE,Christmas Ale,St Arnold,7%,22,Texas
+ALE,STRONG ALE,OLD ALE,Hibernation Ale,Great Divide,8.70%,37,Colorado
+ALE,STRONG ALE,OLD ALE,Curmudgeon,Founders,9.80%,50,Michigan
+ALE,STRONG ALE,ENGLISH BARLEYWINE,Duck-Rabbit Barleywine Ale,Duck-Rabbit,11%,52,North Carolina
+ALE,STRONG ALE,ENGLISH BARLEYWINE,Insanity,Weyerbacher,11.10%,55,Pennsylvania
+ALE,STRONG ALE,ENGLISH BARLEYWINE,Irish Walker,Olde Hickory,10.14%,60,North Carolina
+ALE,STRONG ALE,AMERICAN BARLEYWINE,Hog Heaven Barley Wine,Avery,9.20%,100,Colorado
+ALE,STRONG ALE,AMERICAN BARLEYWINE,Third Coast Old Ale,Bell's,10.20%,80,Michigan
+ALE,STRONG ALE,AMERICAN BARLEYWINE,Bigfoot Barleywine,Sierra Nevada,9.60%,90,California
+ALE,GERMAN ALE,RAUCHBIER,Scarlet Fire,Victory,6.10%,25,Pennsylvania
+ALE,GERMAN ALE,RAUCHBIER,Aecht Schlenkerla Rauchbier Maerzen,Heller-Trum / Schlenkerla,5.40%,30,Germany
+ALE,GERMAN ALE,RAUCHBIER,Smoke & Dagger,Jack's Abby,5.80%,25,Massachusetts
+ALE,BELGIAN STRONG ALE,BELGIAN QUADRUPEL,Trappistes Rochefort 10,Rochefort,11.30%,27,Belgium
+ALE,BELGIAN STRONG ALE,BELGIAN QUADRUPEL,Three Philosophers,Ommegang,9.70%,19,New York
+ALE,BELGIAN STRONG ALE,BELGIAN QUADRUPEL,St. Bernardus Abt 12,St. Bernardus,10%,23,Belgium
+ALE,STRONG ALE,WHEATWINE,Old Sol,Big Time,10%,22,Washington
+ALE,STRONG ALE,WHEATWINE,White Oak,The Bruery,11.50%,20,California
+ALE,STRONG ALE,WHEATWINE,Misery,DuClaw,10%,65,Maryland
+ALE,INDIA PALE ALE,BLACK IPA,Beer Hop Breakfast,Mikkeller,7.50%,66,Denmark
+ALE,INDIA PALE ALE,BLACK IPA,Sublimely Self-Righteous,Stone,8.70%,90,California
+ALE,INDIA PALE ALE,BLACK IPA,Black Betty,Beavertown,7.40%,60,England
+ALE,AMERICAN ALE,PUMPKIN BEER,Pumking,Southern Tier,8.60%,25,New York
+ALE,AMERICAN ALE,PUMPKIN BEER,Punkin Ale,Dogfish Head,7%,28,Delaware
+ALE,AMERICAN ALE,PUMPKIN BEER,Imperial Pumpkin Ale,Weyerbacher,8%,40,Pennsylvania
+ALE,AMERICAN ALE,RYE ALE,Red's Rye IPA,Founders,6.60%,70,Michigan
+ALE,AMERICAN ALE,RYE ALE,Righteous Ale,Sixpoint,6.50%,57,New York
+ALE,AMERICAN ALE,RYE ALE,Full Moon Pale Rye Ale,Real Ale,5.60%,42,Texas
+ALE,STRONG ALE,WINTER WARMER,Christmas Ale,Great Lakes,7.50%,30,Ohio
+ALE,STRONG ALE,WINTER WARMER,Harpoon Winter Warmer,Harpoon,5.90%,22,Massachusetts
+ALE,STRONG ALE,WINTER WARMER,Fireside Chat,21st Amendment,7.90%,45,California
