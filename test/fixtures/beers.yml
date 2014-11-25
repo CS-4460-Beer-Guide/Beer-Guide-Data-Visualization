@@ -1,0 +1,21 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  name: MyString
+  branch: MyString
+  family: MyString
+  sub_family: MyString
+  brewery: MyString
+  abv: 1.5
+  ibu: 1
+  region: MyString
+
+two:
+  name: MyString
+  branch: MyString
+  family: MyString
+  sub_family: MyString
+  brewery: MyString
+  abv: 1.5
+  ibu: 1
+  region: MyString
