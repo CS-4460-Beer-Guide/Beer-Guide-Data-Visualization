@@ -1,0 +1,8 @@
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: beerguide_development
+  pool: 5
+  username: gt565k
+  password: 
+  min_messages: WARNING
