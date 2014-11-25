@@ -2,6 +2,7 @@ class Beer < ActiveRecord::Base
   validates :name, uniqueness: true
   
   def self.import()
+    require 'csv'
     CSV.foreach("data/beers.csv") do |row|
       #branch, family, sub_family, name, brewery, abv, ibu, region
 
