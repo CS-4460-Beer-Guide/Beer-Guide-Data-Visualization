@@ -1,5 +1,4 @@
 class Beer < ActiveRecord::Base
-  validates :name, uniqueness: true
   
   def self.import()
     require 'csv'
