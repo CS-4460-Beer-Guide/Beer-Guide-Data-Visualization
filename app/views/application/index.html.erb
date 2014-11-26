@@ -33,8 +33,9 @@ var diagonal = d3.svg.diagonal.radial()
     .projection(function(d) { return [d.y, d.x / 180 * Math.PI]; });
 
 var svg = d3.select("body").append("svg")
-    .attr("width", diameter)
-    .attr("height", diameter - 150)
+    .attr("width", 1200)
+    .attr("height", 1000)
+    .attr("class", "beer_tree")
   .append("g")
     .attr("transform", "translate(" + diameter / 2 + "," + diameter / 2 + ")");
 
@@ -67,3 +68,5 @@ d3.json("beers.json", function(root) {
 d3.select(self.frameElement).style("height", diameter - 150 + "px");
 
 </script>
+
+<div id="scatter_plot" style="display:inline-block; vertical-align:top;">asdasdsa</div>

@@ -1,0 +1,11 @@
+.beer_tree {
+	padding-left:80px;
+	padding-top:30px;
+	zoom:0.75;
+	display:inline-block;
+}
+
+.node text:hover {
+	font-size:1.2em;
+	text-decoration: underline;
+}
