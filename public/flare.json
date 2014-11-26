@@ -1,0 +1,50 @@
+{
+ "name": "beer",
+ "children": [
+  {
+   "name": "LAGER",
+   "children": [
+    {
+     "name": "cluster",
+     "children": [
+      {"name": "AgglomerativeCluster"},
+      {"name": "CommunityStructure"},
+      {"name": "HierarchicalCluster"},
+      {"name": "MergeEdge"}
+     ]
+    },
+    {
+     "name": "graph",
+     "children": [
+      {"name": "BetweennessCentrality"},
+      {"name": "LinkDistance"},
+      {"name": "MaxFlowMinCut"},
+      {"name": "ShortestPaths"},
+      {"name": "SpanningTree"}
+     ]
+    }
+   ]
+  },
+  {
+   "name": "ALE",
+   "children": [
+    {
+     "name": "converters",
+     "children": [
+      {"name": "Converters"},
+      {"name": "DelimitedTextConverter"},
+      {"name": "GraphMLConverter"},
+      {"name": "IDataConverter"},
+      {"name": "JSONConverter"}
+     ]
+    },
+    {"name": "DataField"},
+    {"name": "DataSchema"},
+    {"name": "DataSet"},
+    {"name": "DataSource"},
+    {"name": "DataTable"},
+    {"name": "DataUtil"}
+   ]
+  }
+ ]
+}

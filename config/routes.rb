@@ -8,6 +8,8 @@ BeerGuideDataVisualization::Application.routes.draw do
   
   get 'api/sub_families' => "api#sub_families"
   
+  get 'api/all_beers' => "api#all_beers"
+  
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
