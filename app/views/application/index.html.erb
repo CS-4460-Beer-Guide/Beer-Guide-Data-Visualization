@@ -56,7 +56,7 @@ d3.json("beers.json", function(root) {
 
   node.append("circle")
       .attr("r", 4.5);
-
+	node.attr("class", function(d) { return d.type + ' node';})
   node.append("text")
       .attr("dy", ".31em")
       .attr("text-anchor", function(d) { return d.x < 180 ? "start" : "end"; })
