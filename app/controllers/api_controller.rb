@@ -3,8 +3,12 @@ class ApiController < ApplicationController
 
   layout false
   
+  def user_params
+    return params.except(:action, :controller)
+  end
+  
   def beers
-    beers_as_json = Beer.where(params).as_json(except: [:id, :created_at, :updated_at])
+    beers_as_json = Beer.where(user_params).as_json(except: [:id, :created_at, :updated_at])
 
     
     render :json=> beers_as_json, :status=>200
