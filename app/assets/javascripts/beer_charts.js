@@ -13,7 +13,7 @@ BeerCharts.render_scatter_plot = function(branch, family, sub_family) {
 		},
 	  success: function(json_data){
 	  	for(i=0; i < json_data.length; i++) {
-	  		formatted_data.push([parseFloat(json_data[i].abv), parseFloat(json_data[i].ibu)])
+	  		formatted_data.push({x: parseFloat(json_data[i].abv), y: parseFloat(json_data[i].ibu), name: json_data[i].name, family: json_data[i].family, sub_family: json_data[i].sub_family, region: json_data[i].region});
 	  	}
 			BeerCharts.scatter_plot = new Highcharts.Chart({
 					        chart: {
@@ -37,6 +37,7 @@ BeerCharts.render_scatter_plot = function(branch, family, sub_family) {
 			            showLastLabel: true
 			        },
 			        yAxis: {
+			        		min: 0,
 			            title: {
 			                text: 'International Bitterness Unit (IBU)'
 			            }
@@ -70,8 +71,8 @@ BeerCharts.render_scatter_plot = function(branch, family, sub_family) {
 			                    }
 			                },
 			                tooltip: {
-			                    headerFormat: '<b>{series.name}</b><br>',
-			                    pointFormat: '{point.x} ABV, {point.y} IBU'
+			                    headerFormat: '',
+			                    pointFormat: '<strong>Beer name:</strong> {point.name} <br> <strong>Region:</strong> {point.region} <br> <strong>ABV: </strong> {point.x} <br> <strong>IBU:</strong> {point.y}'
 			                }
 			            }
 			        },
