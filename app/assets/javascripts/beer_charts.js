@@ -72,7 +72,7 @@ BeerCharts.render_scatter_plot = function(branch, family, sub_family) {
 			                },
 			                tooltip: {
 			                    headerFormat: '',
-			                    pointFormat: '<strong>Beer name:</strong> {point.name} <br> <strong>Region:</strong> {point.region} <br> <strong>ABV: </strong> {point.x} <br> <strong>IBU:</strong> {point.y}'
+			                    pointFormat: '<strong>Beer name:</strong> {point.name} <br> <strong>Family:</strong> {point.family} <br><strong>Sub-family:</strong> {point.sub_family} <br> <strong>Region:</strong> {point.region} <br> <strong>ABV: </strong> {point.x} <br> <strong>IBU:</strong> {point.y}'
 			                }
 			            }
 			        },
