@@ -22,7 +22,9 @@ BeerCharts.add_beers_series = function (type, type_name) {
 		},
 	  success: function(json_data){
 	  	for(i=0; i < json_data.length; i++) {
-	  		formatted_series.push({name: json_data[0].type, data: [] });
+	  		formatted_series.push({name: json_data[0].type, data: [],  marker: {
+                symbol: 'circle'
+            }});
 		  		for(j=0; j < json_data[i].data.length; j++) {
 
 			  		formatted_series[i].data.push({x: parseFloat(json_data[i].data[j].abv), 
