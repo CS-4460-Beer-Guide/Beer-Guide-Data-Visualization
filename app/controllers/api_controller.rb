@@ -11,7 +11,7 @@ class ApiController < ApplicationController
     if params[:type]=="all_beer"
       
       beers_as_json = Beer.all.as_json(except: [:id, :created_at, :updated_at])
-      params[:type_name] = "all beer"
+      params[:type_name] = "ALL BEER"
     elsif params[:type] == "family"
       beers_as_json = Beer.where(family: params[:type_name]).as_json(except: [:id, :created_at, :updated_at])
     elsif params[:type] == "sub_family"

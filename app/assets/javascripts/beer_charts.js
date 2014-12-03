@@ -77,10 +77,8 @@ BeerCharts.render_scatter_plot = function() {
 			        },
 			        legend: {
 			            layout: 'vertical',
-			            align: 'left',
+			            align: 'right',
 			            verticalAlign: 'top',
-			            x: 100,
-			            y: 70,
 			            floating: true,
 			            backgroundColor: (Highcharts.theme && Highcharts.theme.legendBackgroundColor) || '#FFFFFF',
 			            borderWidth: 1
