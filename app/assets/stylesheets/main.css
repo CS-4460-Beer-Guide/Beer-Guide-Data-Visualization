@@ -13,7 +13,7 @@
 	cursor:pointer;
 }
 
-.node.selected text {
+text.node_label.selected {
 	font-size:1.2em;
 	fill:brown;
 }
@@ -27,4 +27,8 @@ g > * {
     -ms-user-select: none;
     user-select: none;
 
+}
+
+.beer_tree {
+	float:left;
 }

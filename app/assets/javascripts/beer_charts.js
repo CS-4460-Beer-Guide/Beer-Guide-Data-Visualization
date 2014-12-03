@@ -2,7 +2,8 @@ window.BeerCharts = window.BeerCharts || {};
 BeerCharts.formatted_series = [];
 BeerCharts.json_data;
 
-BeerCharts.remove_beers_series = function (name) {
+BeerCharts.remove_beers_series = function (series_name) {
+
 	
 }
 BeerCharts.add_beers_series = function (type, type_name) {
@@ -26,7 +27,8 @@ BeerCharts.add_beers_series = function (type, type_name) {
 			  																		name: json_data[i].data[j].name, 
 			  																		family: json_data[i].data[j].family, 
 			  																		sub_family: json_data[i].data[j].sub_family, 
-			  																		region: json_data[i].data[j].region});		  			
+			  																		region: json_data[i].data[j].region,
+			  																		brewery: json_data[i].data[j].brewery});		  
 		  		}
 
 	  																	
@@ -39,32 +41,7 @@ BeerCharts.add_beers_series = function (type, type_name) {
 }
 
 
-BeerCharts.get_data = function () {
-	$.ajax({
-	  url: '/api/beers',
-	  cache: true,
-	  dataType: "json",		  
-	  async: false,
-	  success: function(json_data){
-	  	BeerCharts.json_data = json_data;
-	  	for(i=0; i < json_data.length; i++) {
-	  		BeerCharts.formatted_series.push({name: json_data[0].type, data: [] });
-		  		for(j=0; j < json_data[i].data.length; j++) {
 
-			  		BeerCharts.formatted_series[i].data.push({x: parseFloat(json_data[i].data[j].abv), 
-			  																		y: parseFloat(json_data[i].data[j].ibu), 
-			  																		name: json_data[i].data[j].name, 
-			  																		family: json_data[i].data[j].family, 
-			  																		sub_family: json_data[i].data[j].sub_family, 
-			  																		region: json_data[i].data[j].region});		  			
-		  		}
-
-	  																	
-	  	}
-			
-	  }
-	});	
-}
 BeerCharts.render_scatter_plot = function() {
 	BeerCharts.scatter_plot = new Highcharts.Chart({
 					        chart: {
@@ -123,7 +100,7 @@ BeerCharts.render_scatter_plot = function() {
 			                },
 			                tooltip: {
 			                    headerFormat: '',
-			                    pointFormat: '<strong>Beer name:</strong> {point.name} <br> <strong>Family:</strong> {point.family} <br><strong>Sub-family:</strong> {point.sub_family} <br> <strong>Region:</strong> {point.region} <br> <strong>ABV: </strong> {point.x} <br> <strong>IBU:</strong> {point.y}'
+			                    pointFormat: '<strong>Beer name:</strong> {point.name} <br> <strong>Family:</strong> {point.family} <br><strong>Sub-family:</strong> {point.sub_family} <br> <strong>Region:</strong> {point.region} <br> <strong>Brewery:</strong> {point.brewery} <br> <strong>ABV: </strong> {point.x}% <br> <strong>IBU:</strong> {point.y}'
 			                }
 			            }
 			        },
