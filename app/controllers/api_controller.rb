@@ -8,10 +8,20 @@ class ApiController < ApplicationController
   end
   
   def beers
-    beers_as_json = Beer.where(user_params).as_json(except: [:id, :created_at, :updated_at])
+    if params[:type].nil?
+      
+      beers_as_json = Beer.all.as_json(except: [:id, :created_at, :updated_at])
+      params[:type_name] = "all beers"
+    elsif params[:type] == "family"
+      beers_as_json = Beer.where(family: params[:type_name]).as_json(except: [:id, :created_at, :updated_at])
+    elsif params[:type] == "sub_family"
+      beers_as_json = Beer.where(sub_family: params[:type_name]).as_json(except: [:id, :created_at, :updated_at])
+    elsif params[:type] == "branch"
+      beers_as_json = Beer.where(branch: params[:type_name]).as_json(except: [:id, :created_at, :updated_at])
+    end
     
+    render :json=> [{type: params[:type_name], data: beers_as_json }] , :status=>200    
     
-    render :json=> [{type: "all beers", data: beers_as_json }] , :status=>200
     
   end
   
