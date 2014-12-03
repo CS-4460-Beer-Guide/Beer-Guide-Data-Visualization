@@ -42,7 +42,7 @@ class ApiController < ApplicationController
   
   def all_beers
     beers_json = {
-                  name: "beer",
+                  name: "ALL BEER",
                   children: [
                     {
                       name: "LAGER",

@@ -19,4 +19,8 @@ class Beer < ActiveRecord::Base
     end
   end
   
+  def self.import_description()
+    
+  end
+  
 end
