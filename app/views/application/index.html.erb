@@ -69,7 +69,41 @@ d3.select(self.frameElement).style("height", diameter - 150 + "px");
 
 </script>
 <script>
+	// special thanks for svg traversing to Todd Motto
+	// code modified from http://toddmotto.com/hacking-svg-traversing-with-ease-addclass-removeclass-toggleclass-functions/
+	function node_has_class(node, className) {
+		return new RegExp('(\\s|^)' + className + '(\\s|$)').test(node.getAttribute('class'));
+	}
+	
+	function node_add_class(node, className) {
+	  if (!node_has_class(node, className)) {
+    	node.setAttribute('class', node.getAttribute('class') + ' ' + className);
+  	}
+		
+	}
+	
+	function node_remove_class(node, className) {
+	  var removedClass = node.getAttribute('class').replace(new RegExp('(\\s|^)' + className + '(\\s|$)', 'g'), '$2');
+	  if (node_has_class(node, className)) {
+	    node.setAttribute('class', removedClass);
+	  }
+	}
+	
+	function node_toggle_class(node, className) {
+	 if (node_has_class(node, className)) {
+	    node_remove_class(node, className);
+	  } else {
+	    node_add_class(node, className);
+	  }
+	}
+	
 	$( document ).ready(function() {
+		$(document).on('click','g.node', function(event) { 
+			node_toggle_class(this,"selected");
+				//$(this).toggleClass("selected");
+				//alert($(this).find("text").text());
+		});
+		BeerCharts.get_data();
     BeerCharts.render_scatter_plot();
 });
 </script>

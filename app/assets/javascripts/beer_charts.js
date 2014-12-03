@@ -1,11 +1,11 @@
 window.BeerCharts = window.BeerCharts || {};
-
-BeerCharts.render_scatter_plot = function(branch, family, sub_family) {
-	var formatted_data = [];
+BeerCharts.formatted_data = [];
+BeerCharts.get_data = function (branch, family, sub_family) {
 	$.ajax({
 	  url: '/api/beers',
 	  cache: true,
 	  dataType: "json",		  
+	  async: false,
 	  data: {	
 				branch: branch,
 				family: family,
@@ -13,16 +13,26 @@ BeerCharts.render_scatter_plot = function(branch, family, sub_family) {
 		},
 	  success: function(json_data){
 	  	for(i=0; i < json_data.length; i++) {
-	  		formatted_data.push({x: parseFloat(json_data[i].abv), y: parseFloat(json_data[i].ibu), name: json_data[i].name, family: json_data[i].family, sub_family: json_data[i].sub_family, region: json_data[i].region});
+	  		BeerCharts.formatted_data.push({x: parseFloat(json_data[i].abv), 
+	  																		y: parseFloat(json_data[i].ibu), 
+	  																		name: json_data[i].name, 
+	  																		family: json_data[i].family, 
+	  																		sub_family: json_data[i].sub_family, 
+	  																		region: json_data[i].region});
 	  	}
-			BeerCharts.scatter_plot = new Highcharts.Chart({
+			
+	  }
+	});	
+}
+BeerCharts.render_scatter_plot = function(branch, family, sub_family) {
+	BeerCharts.scatter_plot = new Highcharts.Chart({
 					        chart: {
 				        	renderTo: 'scatter_plot',
 			            type: 'scatter',
 			            zoomType: 'xy'
 			        },
 			        title: {
-			            text: 'ABV vs IBU for '+ formatted_data.length + ' beers'
+			            text: 'ABV vs IBU for '+ BeerCharts.formatted_data.length + ' beers'
 			        },
 			        subtitle: {
 			            text: 'sub title text goes here'
@@ -79,11 +89,9 @@ BeerCharts.render_scatter_plot = function(branch, family, sub_family) {
 			        series: [{
 			            name: 'Beer',
 			            color: 'rgba(223, 83, 83, .5)',
-			            data: formatted_data
+			            data: BeerCharts.formatted_data
 			
 			        }]
-			    });
-	  }
-	});
+    });
 	
 }

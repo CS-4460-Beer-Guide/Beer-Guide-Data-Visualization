@@ -7,5 +7,13 @@
 
 .node text:hover {
 	font-size:1.2em;
-	text-decoration: underline;
+}
+
+.node {
+	cursor:pointer;
+}
+
+.node.selected text {
+	font-size:1.3em;
+	fill:red;
 }
