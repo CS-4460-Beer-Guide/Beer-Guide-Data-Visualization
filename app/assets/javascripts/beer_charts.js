@@ -2,12 +2,10 @@ window.BeerCharts = window.BeerCharts || {};
 BeerCharts.formatted_series = [];
 BeerCharts.json_data;
 
-BeerCharts.remove_series = function (name) {
+BeerCharts.remove_beers_series = function (name) {
 	
 }
-BeerCharts.add_series = function (type, type_name) {
-	alert(type);
-	alert(type_name);
+BeerCharts.add_beers_series = function (type, type_name) {
 	var formatted_series = [];
 	$.ajax({
 	  url: '/api/beers',

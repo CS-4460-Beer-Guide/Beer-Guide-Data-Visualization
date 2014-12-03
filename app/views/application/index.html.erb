@@ -69,6 +69,8 @@ d3.select(self.frameElement).style("height", diameter - 150 + "px");
 
 </script>
 <script>
+	// special thanks for svg traversing to Todd Motto
+	// code modified from http://toddmotto.com/hacking-svg-traversing-with-ease-addclass-removeclass-toggleclass-functions/
 	function node_has_class(node, className) {
 		return new RegExp('(\\s|^)' + className + '(\\s|$)').test(node.getAttribute('class'));
 	}
@@ -96,8 +98,7 @@ d3.select(self.frameElement).style("height", diameter - 150 + "px");
 	}
 </script>
 <script>
-	// special thanks for svg traversing to Todd Motto
-	// code modified from http://toddmotto.com/hacking-svg-traversing-with-ease-addclass-removeclass-toggleclass-functions/
+
 
 	
 	$( document ).ready(function() {
@@ -106,8 +107,9 @@ d3.select(self.frameElement).style("height", diameter - 150 + "px");
 				//$(this).toggleClass("selected");
 				//alert($(this).find("text").text());
 		});
-		BeerCharts.get_data();
     BeerCharts.render_scatter_plot();
+    // add all beers initially and mark as selected on tree
+    BeerCharts.add_beers_series();
     setTimeout(function(){ node_add_class($(".all_beer")[0], "selected"); }, 500);
     
 });
