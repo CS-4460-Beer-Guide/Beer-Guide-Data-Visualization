@@ -32,3 +32,7 @@ g > * {
 .beer_tree {
 	float:left;
 }
+
+.node_label {
+	text-transform: uppercase;
+}

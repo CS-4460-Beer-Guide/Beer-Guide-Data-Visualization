@@ -63,6 +63,7 @@ function render_tree() {
 	      .attr("text-anchor", function(d) { return d.x < 180 ? "start" : "end"; })
 	      .attr("transform", function(d) { return d.x < 180 ? "translate(8)" : "rotate(180)translate(-8)"; })
 	      .attr("class", function(d) { return "node_label " + d.type;})
+	      .attr("data-beer-type", function(d) { return d.type;})
 	      .text(function(d) { return d.name; });
 	});
 	
@@ -81,6 +82,7 @@ function render_tree() {
 	function node_add_class(node, className) {
 	  if (!node_has_class(node, className)) {
     	node.setAttribute('class', node.getAttribute('class') + ' ' + className);
+    	BeerCharts.add_beers_series($(node).data("beer-type"), $(node).text());
   	}
 		
 	}
@@ -89,6 +91,7 @@ function render_tree() {
 	  var removedClass = node.getAttribute('class').replace(new RegExp('(\\s|^)' + className + '(\\s|$)', 'g'), '$2');
 	  if (node_has_class(node, className)) {
 	    node.setAttribute('class', removedClass);
+	    BeerCharts.remove_beers_series($(node).text());
 	  }
 	}
 	
@@ -103,18 +106,18 @@ function render_tree() {
 <script>
 
 
-	
+	//node_toggle_class($( "g.node text:contains('" + series_name + "')")[0], "selected")
 	$( document ).ready(function() {
 		render_tree();
 		$(document).on('click','.node_label', function(event) { 
 			node_toggle_class(this,"selected");
 				//$(this).toggleClass("selected");
-				alert($(this).text());
+				//alert($(this).text());
 		});
     BeerCharts.render_scatter_plot();
     // add all beers initially and mark as selected on tree
-    BeerCharts.add_beers_series();
-    setTimeout(function(){ node_add_class($(".node_label.all_beer")[0], "selected"); }, 500);
+    //BeerCharts.add_beers_series();
+    //setTimeout(function(){ node_add_class($(".node_label.all_beer")[0], "selected"); }, 500);
     
 });
 </script>
