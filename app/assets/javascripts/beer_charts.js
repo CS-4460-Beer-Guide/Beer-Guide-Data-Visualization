@@ -3,8 +3,11 @@ BeerCharts.formatted_series = [];
 BeerCharts.json_data;
 
 BeerCharts.remove_beers_series = function (series_name) {
-
-	
+	for (i=0; i<BeerCharts.scatter_plot.series.length; i++) {
+		if (BeerCharts.scatter_plot.series[i].name == series_name) {
+			BeerCharts.scatter_plot.series[i].remove(true);
+		}
+	}
 }
 BeerCharts.add_beers_series = function (type, type_name) {
 	var formatted_series = [];
