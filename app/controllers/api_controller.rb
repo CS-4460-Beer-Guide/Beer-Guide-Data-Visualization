@@ -9,9 +9,9 @@ class ApiController < ApplicationController
   
   def beers
     beers_as_json = Beer.where(user_params).as_json(except: [:id, :created_at, :updated_at])
-
     
-    render :json=> beers_as_json, :status=>200
+    
+    render :json=> [{type: "all beers", data: beers_as_json }] , :status=>200
     
   end
   

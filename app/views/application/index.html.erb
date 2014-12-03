@@ -69,8 +69,6 @@ d3.select(self.frameElement).style("height", diameter - 150 + "px");
 
 </script>
 <script>
-	// special thanks for svg traversing to Todd Motto
-	// code modified from http://toddmotto.com/hacking-svg-traversing-with-ease-addclass-removeclass-toggleclass-functions/
 	function node_has_class(node, className) {
 		return new RegExp('(\\s|^)' + className + '(\\s|$)').test(node.getAttribute('class'));
 	}
@@ -96,6 +94,11 @@ d3.select(self.frameElement).style("height", diameter - 150 + "px");
 	    node_add_class(node, className);
 	  }
 	}
+</script>
+<script>
+	// special thanks for svg traversing to Todd Motto
+	// code modified from http://toddmotto.com/hacking-svg-traversing-with-ease-addclass-removeclass-toggleclass-functions/
+
 	
 	$( document ).ready(function() {
 		$(document).on('click','g.node', function(event) { 
@@ -105,6 +108,8 @@ d3.select(self.frameElement).style("height", diameter - 150 + "px");
 		});
 		BeerCharts.get_data();
     BeerCharts.render_scatter_plot();
+    setTimeout(function(){ node_add_class($(".all_beer")[0], "selected"); }, 500);
+    
 });
 </script>
 <div id="scatter_plot" style="display:inline-block; vertical-align:top;">chart goes here</div>

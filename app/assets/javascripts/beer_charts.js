@@ -1,5 +1,6 @@
 window.BeerCharts = window.BeerCharts || {};
-BeerCharts.formatted_data = [];
+BeerCharts.formatted_series = [];
+BeerCharts.json_data;
 BeerCharts.get_data = function (branch, family, sub_family) {
 	$.ajax({
 	  url: '/api/beers',
@@ -12,19 +13,26 @@ BeerCharts.get_data = function (branch, family, sub_family) {
 				sub_family: sub_family
 		},
 	  success: function(json_data){
+	  	BeerCharts.json_data = json_data;
 	  	for(i=0; i < json_data.length; i++) {
-	  		BeerCharts.formatted_data.push({x: parseFloat(json_data[i].abv), 
-	  																		y: parseFloat(json_data[i].ibu), 
-	  																		name: json_data[i].name, 
-	  																		family: json_data[i].family, 
-	  																		sub_family: json_data[i].sub_family, 
-	  																		region: json_data[i].region});
+	  		BeerCharts.formatted_series.push({type: json_data[0].type, data: [] });
+		  		for(j=0; j < json_data[i].data.length; j++) {
+
+			  		BeerCharts.formatted_series[i].data.push({x: parseFloat(json_data[i].data[j].abv), 
+			  																		y: parseFloat(json_data[i].data[j].ibu), 
+			  																		name: json_data[i].data[j].name, 
+			  																		family: json_data[i].data[j].family, 
+			  																		sub_family: json_data[i].data[j].sub_family, 
+			  																		region: json_data[i].data[j].region});		  			
+		  		}
+
+	  																	
 	  	}
 			
 	  }
 	});	
 }
-BeerCharts.render_scatter_plot = function(branch, family, sub_family) {
+BeerCharts.render_scatter_plot = function() {
 	BeerCharts.scatter_plot = new Highcharts.Chart({
 					        chart: {
 				        	renderTo: 'scatter_plot',
@@ -32,7 +40,7 @@ BeerCharts.render_scatter_plot = function(branch, family, sub_family) {
 			            zoomType: 'xy'
 			        },
 			        title: {
-			            text: 'ABV vs IBU for '+ BeerCharts.formatted_data.length + ' beers'
+			            text: 'ABV vs IBU'
 			        },
 			        subtitle: {
 			            text: 'sub title text goes here'
@@ -87,9 +95,9 @@ BeerCharts.render_scatter_plot = function(branch, family, sub_family) {
 			            }
 			        },
 			        series: [{
-			            name: 'Beer',
+			            name: BeerCharts.formatted_series[0].type,
 			            color: 'rgba(223, 83, 83, .5)',
-			            data: BeerCharts.formatted_data
+			            data: BeerCharts.formatted_series[0].data
 			
 			        }]
     });

@@ -14,6 +14,17 @@
 }
 
 .node.selected text {
-	font-size:1.3em;
-	fill:red;
+	font-size:1.2em;
+	fill:brown;
+}
+
+g > * {
+
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+
 }
