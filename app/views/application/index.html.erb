@@ -21,7 +21,7 @@
  div.d3tooltip {
       position: absolute;
       text-align: center;
-      height: 10px;
+      max-width:200px;
       padding: 8px;
       font: 10px sans-serif;
       background: #ffff99;
@@ -46,7 +46,7 @@ function mouseover() {
 
 function mousemove(d) {
     div
-    .text("Info about " + d.description)
+    .html("<span style='font-weight:bold;'>" + d.name + "</span> <br> <span style='font-size:1.2em;'>Type:  " +d.type +"</span>")
     .style("left", (d3.event.pageX +10) + "px")
     .style("top", (d3.event.pageY) + "px");
 }
@@ -161,4 +161,28 @@ function render_tree() {
     
 });
 </script>
-<div id="scatter_plot" style="display:inline-block; vertical-align:top;">chart goes here</div>
+<h1 class="beer_chart_title">Beginners Guide To Beer</h1>
+<div style="display:inline-block; vertical-align:top;">
+	<div id="scatter_plot" >chart goes here</div>
+	<div style="width:600px;margin-left:70px;margin-top:50px;">
+	<h3>Data Sources</h2>
+	<ol>
+		<li>
+			<a href="http://www.beeradvocate.com/beer/style/">Beer Advocate</a>
+		</li>
+		<li>
+			<a href="http://www.bjcp.org/">Beer Judge Certification Program</a>
+		</li>
+		<li>
+			<a href="http://www.brewersfriend.com/2009/01/24/beer-styles-ibu-chart-graph-bitterness-range/">Brewers Friend</a>
+		</li>
+		<li>
+			<a href="http://www.totalwine.com/eng/guide-to-beer">Total Wine and More</a>
+		</li>
+	</ol>
+	
+</div>
+</div>
+
+
+

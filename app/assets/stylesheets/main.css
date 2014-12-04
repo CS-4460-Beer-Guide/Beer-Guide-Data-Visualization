@@ -3,8 +3,11 @@
 	padding-top:30px;
 	zoom:0.75;
 	display:inline-block;
+	
 }
-
+.beer_chart_title {
+	text-align:center;
+}
 .node text:hover {
 	font-size:1.2em;
 }
