@@ -107,7 +107,4 @@ BeerCharts.render_scatter_plot = function() {
 			        },
 			        series: []
     });
-    
-    BeerCharts.scatter_plot.addSeries(BeerCharts.formatted_series[0], true);
-	
 }
