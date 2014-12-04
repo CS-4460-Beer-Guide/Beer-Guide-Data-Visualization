@@ -18,11 +18,48 @@
   stroke-width: 1.5px;
 }
 
+ div.d3tooltip {
+      position: absolute;
+      text-align: center;
+      height: 10px;
+      padding: 8px;
+      font: 10px sans-serif;
+      background: #ffff99;
+      border: solid 1px #aaa;
+      border-radius: 8px;
+      pointer-events: none;
+      z-index:10000;
+  }
+
 </style>
 <body>
 
 <script>
+var div = d3.select("body").append("div")
+          .attr("class", "d3tooltip")
+          .style("opacity", 1e-6);
+function mouseover() {
+    div.transition()
+    .duration(300)
+    .style("opacity", 1);
+}
+
+function mousemove(d) {
+    div
+    .text("Info about " + d.description)
+    .style("left", (d3.event.pageX +10) + "px")
+    .style("top", (d3.event.pageY) + "px");
+}
+
+function mouseout() {
+    div.transition()
+    .duration(300)
+    .style("opacity", 1e-6);
+}
+            
 function render_tree() {
+
+            
 	var diameter = 960;
 	
 	var tree = d3.layout.tree()
@@ -62,9 +99,12 @@ function render_tree() {
 	      .attr("dy", ".31em")
 	      .attr("text-anchor", function(d) { return d.x < 180 ? "start" : "end"; })
 	      .attr("transform", function(d) { return d.x < 180 ? "translate(8)" : "rotate(180)translate(-8)"; })
-	      .attr("class", function(d) { return "node_label " + d.type;})
+	      .attr("class", function(d) { return "node_label tooltip " + d.type;})
 	      .attr("data-beer-type", function(d) { return d.type;})
-	      .text(function(d) { return d.name; });
+	      .text(function(d) { return d.name; })
+        .on("mouseover", mouseover)
+        .on("mousemove", function(d){mousemove(d);})
+        .on("mouseout", mouseout);
 	});
 	
 	d3.select(self.frameElement).style("height", diameter - 150 + "px");
